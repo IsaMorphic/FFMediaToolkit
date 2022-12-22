@@ -61,5 +61,10 @@
         /// Represents a Gray 8bpp video pixel format.
         /// </summary>
         Gray8 = AVPixelFormat.AV_PIX_FMT_GRAY8,
+
+        /// <summary>
+        /// Represents a RGBA(with alpha channel) 64bpp bitmap pixel format.
+        /// </summary>
+        Rgba64 = AVPixelFormat.AV_PIX_FMT_RGBA64LE,
     }
 }
